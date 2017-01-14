@@ -1,0 +1,3 @@
+name = Default Voice Recognition
+description = The default Eva voice recognition implementation.
+version = 0.1.0
