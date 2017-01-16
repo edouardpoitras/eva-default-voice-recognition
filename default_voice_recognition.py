@@ -28,7 +28,8 @@ def eva_voice_recognition(data):
     with sr.AudioFile(audio_file) as source:
         audio = r.record(source)
     text = transcribe(audio, ACTIVE_VOICE_RECOGNITION)
-    data['input_text'] = text
+    if text is not None:
+        data['input_text'] = text
 
 def transcribe(audio, service=None):
     if service == 'pocketsphinx':
