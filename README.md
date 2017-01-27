@@ -45,7 +45,6 @@ Here is a breakdown of the available options:
             ibm
             random
         All of the options, except for pocketsphinx and random, require corresponding credentials/API keys to have been setup in the configuration.
-        Pocketsphinx refers to a local intallation (see [speech_recognition](https://github.com/Uberi/speech_recognition) docs for installation instructions).
         Random will choose a random service for every query/command.
         Random will only choose services that have credentials/API keys setup.
         Random will never use pocketsphinx.
@@ -87,3 +86,5 @@ Here is a breakdown of the available options:
         Type: String
         Default: ''
         The IBM Speech-to-Text password to use.
+
+Pocketsphinx is a local intallation (see [speech_recognition](https://github.com/Uberi/speech_recognition) docs for installation instructions).
