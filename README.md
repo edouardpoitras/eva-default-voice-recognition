@@ -27,7 +27,7 @@ This removes the need for Eva clients to do the transcription (they can simply s
 
 Default configuration options can be changed by adding a `default_voice_recognition.conf` file in your plugin configuration path (can be configured in `eva.conf`, but usually `~/eva/configs`).
 
-To get an idea of what configuration options are available, you can take a look at the `default_voice_recognition.conf.spec` file in this repository, or use the [Web UI](https://github.com/edouardpoitras/eva-web-ui) plugin and view them at `/plugins/configuration/default_voice_recognition`.
+To get an idea of what configuration options are available, you can take a look at the `default_voice_recognition.conf.spec` file in this repository, or use the [Web UI Plugins](https://github.com/edouardpoitras/eva-web-ui-plugins) plugin and view them at `/plugins/configuration/default_voice_recognition`.
 
 Here is a breakdown of the available options:
 
